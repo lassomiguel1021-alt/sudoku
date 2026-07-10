@@ -70,7 +70,7 @@ public class ValidadorSudoku {
             numeros[numero] = true;
         }
         return true;
-    }ok,
+    }
     public boolean bloqueCompletoEsValido(int[][] tablero, int fila, int columna) {
         boolean[] numeros = new boolean[7];
         int filaInicio = (fila / 2) * 2;
